@@ -1,7 +1,7 @@
 # Importing CSV Library
 import csv
 # file name
-filename = "metadata.csv"
+filename = "netflix.csv"
 # Fields and Rows list
 fields = []
 rows = []
