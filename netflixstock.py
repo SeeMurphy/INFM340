@@ -1,3 +1,4 @@
+# This is a python script to display the first 10 rows of a csv file on Netflix stock value.
 # Importing CSV Library
 import csv
 # file name
@@ -18,9 +19,9 @@ with open(filename, 'r') as csvfile:
     print("Total no. of rows: %d"%(csvreader.line_num))
 # printing the field names
 print('Field names are:' + ', '.join(field for field in fields))
-# printing the first 5 rows
-print('\nFirst 5 rows are:\n')
-for row in rows[:5]:
+# printing the first 10 rows
+print('\nFirst 10 rows are:\n')
+for row in rows[:10]:
     #parsing
     for col in row:
         print("%10s"%col),
