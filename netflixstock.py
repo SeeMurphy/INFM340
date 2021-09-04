@@ -18,7 +18,7 @@ with open(filename, 'r') as csvfile:
     # total number of rows
     print("Total no. of rows: %d"%(csvreader.line_num))
 # printing the field names
-print('Field names are:' + ', '.join(field for field in fields))
+print('Field names are: ' + ', '.join(field for field in fields))
 # printing the first 10 rows
 print('\nFirst 10 rows are:\n')
 for row in rows[:10]:
